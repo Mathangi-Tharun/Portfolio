@@ -810,10 +810,16 @@ nav .right-nav .sidebar{
         height: 100vh;
         padding: 10px;
         /* border: 2px solid var(--main-color); */
+        & .section-heading h2{
+            text-align: center;
+            border: 2px solid var(--main-color); 
+            margin-bottom: 0;;
+        }
         & img{
-            margin-top: 30px;
-            margin: 30px auto 10px 110px;
+            margin-top: 20px;
+            margin: 30px auto 10px 90px;
             width: 50%;
+            border: 3px solid var(--main-color);
         }
 
         & .Sec2-Right{
