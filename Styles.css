@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -704,7 +704,7 @@ nav .right-nav .sidebar{
     }
 
     .Section-1 {
-
+        padding: 0;
         & .Sec1-Left{
             border: none;
             
@@ -731,9 +731,7 @@ nav .right-nav .sidebar{
 }
 
 @media screen and (max-width:500px) {
-    .sidebar{
-        width: 100%;
-    }
+    
     html{
         font-size: 60%;
         overflow-x: hidden;
@@ -751,7 +749,7 @@ nav .right-nav .sidebar{
         padding: 0 -30px;
     }
     .Section-1 {
-
+        padding: 0;
         height: 80vh;
         display:grid;
         grid-template-columns: repeat(1, 1fr);
@@ -809,9 +807,13 @@ nav .right-nav .sidebar{
 
     .Section-2 {
         width: 100%;
-        height: 70vh;
+        height: 100vh;
+        padding: 10px;
+        /* border: 2px solid var(--main-color); */
         & img{
             margin-top: 30px;
+            margin: 30px auto 10px 110px;
+            width: 50%;
         }
 
         & .Sec2-Right{
@@ -838,6 +840,11 @@ nav .right-nav .sidebar{
     }
 
     /* Section-3 starts */
+    .Section-3{
+        border: 2px solid var(--main-color);
+        padding: 10px;
+    
+    }
     .Section-3 .sec3-skillMain .Skills{
 
         display: grid;
@@ -851,7 +858,11 @@ nav .right-nav .sidebar{
             }
         }
     }
-    
+
+    .Section-4{
+        padding-bottom: 20px;
+        
+    }
     .Section-4 .Project p{
         width: 80%;
         margin: auto;
@@ -866,10 +877,12 @@ nav .right-nav .sidebar{
         text-align: center;
     }
 
-
+    .Section-5{
+        padding:15px;
+    }
     .Section-5 .sec5-grid{
         grid-template-columns: repeat(1,1fr);
-
+        align-items: center;
     }
 
     .Section-6 .Icontag{
