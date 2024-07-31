@@ -812,7 +812,7 @@ nav .right-nav .sidebar{
         /* border: 2px solid var(--main-color); */
         & .section-heading h2{
             text-align: center;
-            border: 2px solid var(--main-color); 
+            /* border: 2px solid var(--main-color);  */
             margin-bottom: 0;;
         }
         & img{
